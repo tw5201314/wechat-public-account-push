@@ -7,12 +7,12 @@ const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wxc27f464b97256eab',
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET: '5b58b1197beaff48717c8a4267f8ba2d',
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -60,18 +60,18 @@ const USER_CONFIG = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [
+  USERS: [onn6d6TKQcOkfo1jbu5dQwlNYBAU
     {
       // 想要发送的人的名字
       name: '老婆0',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '2oC3-iC0FJyLE_y87a5qoglS53YxmdRza4L0ZYXU4mQ',
       // 所在省份
-      province: '广东',
+      province: '湖南',
       // 所在城市
-      city: '肇庆',
+      city: '长沙',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
